@@ -2,8 +2,9 @@ pipeline {
   
   agent any 
   stages {
-    stage("Install dependencies"){
+    stage("Build"){
       steps{
+        // here you will put the git hub repoitory url
           sh 'echo "Installgin the dependencies"'
       }
     }
